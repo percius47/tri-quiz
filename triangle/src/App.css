@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+:root{
+  --primary-color:#111827;
+  --secondary-color:#D1D5DB;
+}
+.App{
+  font-family: 'Teko', sans-serif;
+  background: url("https://i.pinimg.com/originals/98/08/46/980846fa2ebcfc648e41c8b1b7c9b267.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  min-width: 400px;
+}
+
+
+.head{
+  display: block;
+  margin: 0rem auto;
+  text-align: center;
+  color:white;
+  background-color: var(--primary-color);
+  margin-bottom: 0rem;
+  padding: 1rem;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.nav{
+  display: block;
+background-color: var(--secondary-color);
+
+text-align: center;
+padding: 0.5rem;
+
+}
+
+.menuItem{
+  display: inline;
+letter-spacing: 0.5px;
+text-align: center;
+font-weight: 600;
+  padding: 2rem;
+  cursor: pointer;
+ 
+}
+main{
+  margin: 2rem;
+}
+
+
+.question{
+  border: var(--primary-color) 1px solid;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.qlabel{
+  
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+}
+.question input{
+  width: 8%;
+  margin: 0.5rem 1rem;
+ border: 1px solid var(--primary-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+}
+.question button{
+  display: block;
+  width: auto;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding:0.3rem 0.7rem ;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  margin:1rem 0;
+}
+.result{
+  font-size: 1.5rem;
+}
+
+.question ol{
+  margin-left: 2rem;
+  list-style-type: lower-roman;
+  font-size: 1.2rem;
+}
+
+.qprompt{
+  font-size: 1.5rem;
+}
+.question select{
+  width: 30%;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  padding:0.3rem;
+}
+
+.final{
+  background-color: var(--primary-color);
+  padding:0.5rem;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem;
+ }
+.finalResults{
+  font-size: 2rem;
+  
+}
+.footer{
+  height: 14vh;
+  background-color:var(--primary-color);
+position: relative;
+color: white;
+}
+
+.links{
+text-align: center;
+margin-top: 2rem;
+padding-top: 2rem;
+font-size: 1.2rem;
+}
+.links span{
+  padding-left: 1rem;
+  padding-right: 1rem ;
+  margin-top: 2rem;  
+  cursor: pointer;
+}
+.links span:hover{
+  text-decoration: underline;
+}
+.links a{
+  padding-left: 1rem;
+  padding-right: 1rem ;
+  margin-top: 2rem;  
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.links a:hover{
+  text-decoration: underline;
+}
+.footer small{
+
+  display: block;
+  position: absolute;
+ width: auto;
+right: 2%;
+bottom: 2%;
+ font-size: 0.8rem;
+
+}
+
+
+
+  
+
+
